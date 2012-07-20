@@ -1,8 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/home/jrlewis/bspeceditor/include/bspeceditor/presentation'
-let g:netrw_dirhist_2='/usr'
-let g:netrw_dirhist_3='/home/jrlewis/jrlewis/exp42/qtdir/mkspecs/linux-g++'
-let g:netrw_dirhist_4='/home/jrlewis/jrlewis/exp42/qtdir/config.tests/x11/xlib'
-let g:netrw_dirhist_5='/tmp/qt_pack'
-let g:netrw_dirhist_6='/home/jrlewis/jrlewis/exp42/platform/windows/vs2010'
