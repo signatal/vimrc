@@ -1,0 +1,27 @@
+set nocp
+set hlsearch
+set incsearch
+set number
+syntax on
+set background=light
+
+filetype plugin on
+
+map <C-F11> :!svn commit <CR>
+map <C-F12> :!$HOME/.vim/legend/generatetags.sh <CR>
+
+
+set tags=$HOME/.vim/tags/c++-tags,$HOME/.vim/tags/qt-tags,$HOME/.vim/tags/generated-tags
+
+let g:bndlspecSearchPaths=",sfr:../include/bndlspec,sfr:../../src"
+
+let g:bspeceditorSearchPaths=",sfr:../include/bspeceditor/view" .",sfr:../../include/bspeceditor/wizard" .",sfr:../include/bspeceditor/view" .",sfr:../include/bspeceditor/model" .",sfr:../../include/bspeceditor/command" .",sfr:../include/bspeceditor/presentation" .",sfr:../../../src" .",sfr:../../../src/wizard" . ",sfr:../../../src/view"
+
+let g:extraSearchPath=g:bspeceditorSearchPaths . g:bndlspecSearchPaths
+     
+       
+
+autocmd VimEnter * NERDTree
+autocmd VimEnter * wincmd p
+
+
